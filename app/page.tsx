@@ -258,10 +258,128 @@ export default function Home() {
 
           {courseResult && (
             <div style={{ marginTop: 24 }}>
-              <h4 style={{ marginBottom: 8 }}>Kết quả quét:</h4>
-              <pre style={styles.codeOutput}>
-                {JSON.stringify(courseResult, null, 2)}
-              </pre>
+              {/* Bảng Danh Sách URL Khóa Học */}
+              <div style={{ marginBottom: 24 }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 12 }}>
+                  <h3 style={{ margin: 0, fontSize: 18, color: "#1e293b" }}>
+                    Danh Sách URL Tìm Thấy ({courseResult.results?.length || 0})
+                  </h3>
+                  {courseResult.results?.length > 0 && (
+                    <button
+                      onClick={() => {
+                        const allUrls = courseResult.results.map((r: any) => r.url).join("\n");
+                        navigator.clipboard.writeText(allUrls);
+                        alert("Đã sao chép toàn bộ URL vào bộ nhớ tạm!");
+                      }}
+                      style={{
+                        padding: "6px 14px",
+                        borderRadius: 6,
+                        border: "1px solid #cbd5e1",
+                        backgroundColor: "#ffffff",
+                        fontSize: 13,
+                        fontWeight: 600,
+                        cursor: "pointer",
+                        color: "#334155",
+                      }}
+                    >
+                      📋 Sao chép tất cả URL
+                    </button>
+                  )}
+                </div>
+
+                {!courseResult.results || courseResult.results.length === 0 ? (
+                  <div style={styles.emptyState}>
+                    Không tìm thấy đường link khóa học nào từ trang này (có thể do trang dùng JavaScript động hoặc bật chặn bot).
+                  </div>
+                ) : (
+                  <div style={{ overflowX: "auto", border: "1px solid #e2e8f0", borderRadius: 8 }}>
+                    <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14 }}>
+                      <thead>
+                        <tr style={{ backgroundColor: "#f8fafc", borderBottom: "1px solid #e2e8f0" }}>
+                          <th style={{ padding: "12px 14px", textAlign: "left", width: 60, color: "#64748b" }}>STT</th>
+                          <th style={{ padding: "12px 14px", textAlign: "left", color: "#64748b" }}>Tiêu đề</th>
+                          <th style={{ padding: "12px 14px", textAlign: "left", color: "#64748b" }}>Đường dẫn URL</th>
+                          <th style={{ padding: "12px 14px", textAlign: "center", width: 110, color: "#64748b" }}>Thao tác</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {courseResult.results.map((item: any, idx: number) => (
+                          <tr
+                            key={idx}
+                            style={{
+                              borderBottom: idx === courseResult.results.length - 1 ? "none" : "1px solid #f1f5f9",
+                              backgroundColor: idx % 2 === 0 ? "#ffffff" : "#fcfcfd",
+                            }}
+                          >
+                            <td style={{ padding: "12px 14px", color: "#64748b", fontWeight: 600 }}>{idx + 1}</td>
+                            <td style={{ padding: "12px 14px", color: "#1e293b", fontWeight: 500, maxWidth: 320 }}>
+                              {item.title || "Khóa học / Bài giảng"}
+                            </td>
+                            <td style={{ padding: "12px 14px", fontFamily: "monospace", color: "#2563eb", wordBreak: "break-all" }}>
+                              <a
+                                href={item.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{ color: "#2563eb", textDecoration: "none" }}
+                                onMouseEnter={(e) => (e.currentTarget.style.textDecoration = "underline")}
+                                onMouseLeave={(e) => (e.currentTarget.style.textDecoration = "none")}
+                              >
+                                {item.url}
+                              </a>
+                            </td>
+                            <td style={{ padding: "12px 14px", textAlign: "center", whiteSpace: "nowrap" }}>
+                              <button
+                                onClick={() => {
+                                  navigator.clipboard.writeText(item.url);
+                                  alert(`Đã sao chép: ${item.url}`);
+                                }}
+                                style={{
+                                  padding: "4px 10px",
+                                  fontSize: 12,
+                                  borderRadius: 4,
+                                  border: "1px solid #cbd5e1",
+                                  backgroundColor: "#f8fafc",
+                                  cursor: "pointer",
+                                  marginRight: 6,
+                                }}
+                              >
+                                Copy
+                              </button>
+                              <a
+                                href={item.url}
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{
+                                  padding: "4px 10px",
+                                  fontSize: 12,
+                                  borderRadius: 4,
+                                  backgroundColor: "#eff6ff",
+                                  color: "#1d4ed8",
+                                  textDecoration: "none",
+                                  display: "inline-block",
+                                  fontWeight: 600,
+                                }}
+                              >
+                                Mở ↗
+                              </a>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </div>
+
+              {/* Khung JSON Thu Gọn để người dùng tham khảo khi cần */}
+              <details style={{ marginTop: 16, border: "1px solid #e2e8f0", borderRadius: 8, padding: "10px 14px" }}>
+                <summary style={{ cursor: "pointer", fontWeight: 600, color: "#64748b", fontSize: 13 }}>
+                  Xem dữ liệu JSON gốc (dành cho kỹ thuật)
+                </summary>
+                <pre style={{ ...styles.codeOutput, marginTop: 12 }}>
+                  {JSON.stringify(courseResult, null, 2)}
+                </pre>
+              </details>
             </div>
           )}
         </section>
