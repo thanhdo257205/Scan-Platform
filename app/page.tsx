@@ -296,8 +296,10 @@ export default function Home() {
                     <table style={{ width: "100%", borderCollapse: "collapse", fontSize: 14 }}>
                       <thead>
                         <tr style={{ backgroundColor: "#f8fafc", borderBottom: "1px solid #e2e8f0" }}>
-                          <th style={{ padding: "12px 14px", textAlign: "left", width: 60, color: "#64748b" }}>STT</th>
-                          <th style={{ padding: "12px 14px", textAlign: "left", color: "#64748b" }}>Tiêu đề</th>
+                          <th style={{ padding: "12px 14px", textAlign: "left", width: 50, color: "#64748b" }}>STT</th>
+                          <th style={{ padding: "12px 14px", textAlign: "left", color: "#64748b" }}>Tiêu đề Khóa học</th>
+                          <th style={{ padding: "12px 14px", textAlign: "center", width: 140, color: "#64748b" }}>Định dạng</th>
+                          <th style={{ padding: "12px 14px", textAlign: "center", width: 110, color: "#64748b" }}>Đăng ký (Enroll)</th>
                           <th style={{ padding: "12px 14px", textAlign: "left", color: "#64748b" }}>Đường dẫn URL</th>
                           <th style={{ padding: "12px 14px", textAlign: "center", width: 110, color: "#64748b" }}>Thao tác</th>
                         </tr>
@@ -312,8 +314,51 @@ export default function Home() {
                             }}
                           >
                             <td style={{ padding: "12px 14px", color: "#64748b", fontWeight: 600 }}>{idx + 1}</td>
-                            <td style={{ padding: "12px 14px", color: "#1e293b", fontWeight: 500, maxWidth: 320 }}>
+                            <td style={{ padding: "12px 14px", color: "#1e293b", fontWeight: 600, maxWidth: 280 }}>
                               {item.title || "Khóa học / Bài giảng"}
+                            </td>
+                            <td style={{ padding: "12px 14px", textAlign: "center" }}>
+                              <span
+                                style={{
+                                  padding: "3px 8px",
+                                  borderRadius: 6,
+                                  fontSize: 11,
+                                  fontWeight: 700,
+                                  backgroundColor:
+                                    item.courseFormat === "SCORM"
+                                      ? "#fef3c7"
+                                      : item.courseFormat === "H5P"
+                                      ? "#ede9fe"
+                                      : item.courseFormat === "VIDEO_COURSE"
+                                      ? "#e0e7ff"
+                                      : "#f1f5f9",
+                                  color:
+                                    item.courseFormat === "SCORM"
+                                      ? "#b45309"
+                                      : item.courseFormat === "H5P"
+                                      ? "#6d28d9"
+                                      : item.courseFormat === "VIDEO_COURSE"
+                                      ? "#4338ca"
+                                      : "#475569",
+                                }}
+                              >
+                                {item.courseFormat === "SCORM"
+                                  ? "📦 SCORM"
+                                  : item.courseFormat === "H5P"
+                                  ? "🧩 H5P"
+                                  : item.courseFormat === "VIDEO_COURSE"
+                                  ? "🎬 Video bài giảng"
+                                  : "📚 Bài học cấu trúc"}
+                              </span>
+                            </td>
+                            <td style={{ padding: "12px 14px", textAlign: "center" }}>
+                              {item.hasEnrollAction ? (
+                                <span style={{ padding: "3px 8px", borderRadius: 6, fontSize: 11, fontWeight: 600, backgroundColor: "#dcfce7", color: "#15803d" }}>
+                                  ✓ Có Enroll
+                                </span>
+                              ) : (
+                                <span style={{ color: "#94a3b8", fontSize: 12 }}>Tự do xem</span>
+                              )}
                             </td>
                             <td style={{ padding: "12px 14px", fontFamily: "monospace", color: "#2563eb", wordBreak: "break-all" }}>
                               <a

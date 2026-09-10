@@ -25,6 +25,40 @@ export const IGNORE_DOMAINS = [
   "theguardian.com",
 ];
 
+/**
+ * Danh sách đường dẫn URL KHÔNG PHẢI KHÓA HỌC (Blacklist URL Patterns)
+ * Loại bỏ ngay lập tức các bài viết blog, báo cáo nghiên cứu, trang mua subscription, trang điều khoản.
+ */
+export const NON_COURSE_URL_PATTERNS = [
+  "/blog/", "/blogs/", "/news/", "/article/", "/articles/", "/press/",
+  "/about/", "/about-us", "/contact", "/careers/", "/jobs/",
+  "/terms", "/privacy", "/legal/", "/security/",
+  "/pricing", "/subscriptions", "/subscription", "/checkout", "/billing",
+  "/faq", "/faqs", "/support", "/help/", "/community", "/forum",
+  "/events/", "/event/", "/webinar", "/webinars",
+  "/whitepaper", "/whitepapers", "/research/", "/case-study", "/case-studies",
+  "/misc/", "/files/misc/", "/wp-content/uploads/",
+];
+
+/**
+ * Dấu hiệu hành động Đăng ký / Bắt đầu học (Enroll / Action CTA)
+ */
+export const ENROLL_CTA_KEYWORDS = [
+  "enroll", "enroll now", "register now", "start learning", "start course",
+  "start module", "take course", "take this course", "join for free",
+  "start free course", "launch course", "go to course", "start now",
+  "bắt đầu học", "đăng ký ngay", "đăng ký học", "tham gia khóa học",
+];
+
+/**
+ * Dấu hiệu cấu trúc bài giảng / Đề cương khóa học (Syllabus / Curriculum)
+ */
+export const SYLLABUS_KEYWORDS = [
+  "syllabus", "curriculum", "course outline", "what you will learn",
+  "table of contents", "learning objectives", "course content",
+  "modules", "lessons", "lectures", "module 1", "lesson 1", "chapter 1",
+];
+
 export const COURSE_KEYWORDS = [
   "online course", "open course", "free course", "courses", "courseware",
   "open courseware", "learning materials", "course repository",

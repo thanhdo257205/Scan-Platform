@@ -10,4 +10,8 @@ export interface SourceResult {
   licenseEvidence: string[];
   downloadEvidence: string[];
   relevantLinks: string[];
+  hasEnrollAction?: boolean;
+  hasVideoOrPlayer?: boolean;
+  hasSyllabus?: boolean;
+  courseFormat?: "SCORM" | "H5P" | "VIDEO_COURSE" | "INTERACTIVE" | "STRUCTURED_LESSON";
 }
