@@ -1,0 +1,160 @@
+[
+  {
+    "id": "udemy-com",
+    "name": "Courses For All Skill Levels - Courses that Never Go Stale\n                        \n                        \n                          Ad\n                          \n                            \n                              \n                              \n                              Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by Microsoft's ad network (more info).",
+    "domain": "udemy.com",
+    "url": "https://udemy.com",
+    "catalogUrl": "https://udemy.com",
+    "vendor": "UDEMY",
+    "description": "Nền tảng đào tạo công nghệ của UDEMY",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Xác thực qua danh bạ Enterprise Academy (trang đích bật bot protection)"
+    ],
+    "discoveredAt": "2026-09-10T07:14:32.901Z"
+  },
+  {
+    "id": "codefinity-com",
+    "name": "Coding Career Training - Free Online Courses\n                        \n                        \n                          Ad\n                          \n                            \n                              \n                              \n                              Viewing ads is privacy protected by DuckDuckGo. Ad clicks are managed by Microsoft's ad network (more info).",
+    "domain": "codefinity.com",
+    "url": "https://codefinity.com",
+    "catalogUrl": "https://codefinity.com",
+    "vendor": "CODEFINITY",
+    "description": "Join an online coding platform: courses for all levels, hands-on projects, practical challenges, and a code runner. Receive a certificate upon completion.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, skills",
+      "Dấu hiệu miễn phí: free, free courses, start for free"
+    ],
+    "discoveredAt": "2026-09-10T07:14:34.684Z"
+  },
+  {
+    "id": "www-coursera-org",
+    "name": "Best Free Courses & Certificates [2026] | Coursera",
+    "domain": "www.coursera.org",
+    "url": "https://www.coursera.org",
+    "catalogUrl": "https://www.coursera.org/courses?query=free",
+    "vendor": "WWW",
+    "description": "Learn job-ready skills with online courses, Professional Certificates, Specializations, and degrees from Google, Meta, Anthropic, DeepLearning.AI, Stanford, and more. Start learning today.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, academy",
+      "Dấu hiệu miễn phí: free, free courses, free online"
+    ],
+    "discoveredAt": "2026-09-10T07:14:36.390Z"
+  },
+  {
+    "id": "www-oshacademy-com",
+    "name": "Safety Courses Catalog - OSHAcademy",
+    "domain": "www.oshacademy.com",
+    "url": "https://www.oshacademy.com",
+    "catalogUrl": "https://www.oshacademy.com/courses/list/course-catalog.html",
+    "vendor": "WWW",
+    "description": "OSHAcademy provides online safety and health training for OSHA 10, OSHA 30, bloodborne pathogens, HIPAA, and more. Students can purchase a certificate package receive an official certificate.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, academy",
+      "Dấu hiệu miễn phí: free"
+    ],
+    "discoveredAt": "2026-09-10T07:14:37.696Z"
+  },
+  {
+    "id": "www-udemy-com",
+    "name": "450+ Free Online Courses - Best of 2026 - Udemy",
+    "domain": "www.udemy.com",
+    "url": "https://www.udemy.com",
+    "catalogUrl": "https://www.udemy.com/courses/free/",
+    "vendor": "WWW",
+    "description": "Nền tảng đào tạo công nghệ của WWW",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Xác thực qua danh bạ Enterprise Academy (trang đích bật bot protection)"
+    ],
+    "discoveredAt": "2026-09-10T07:14:37.909Z"
+  },
+  {
+    "id": "elearning-fao-org",
+    "name": "FAO elearning Academy",
+    "domain": "elearning.fao.org",
+    "url": "https://elearning.fao.org",
+    "catalogUrl": "https://elearning.fao.org",
+    "vendor": "ELEARNING",
+    "description": "Nền tảng đào tạo công nghệ của ELEARNING",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, academy",
+      "Dấu hiệu miễn phí: free"
+    ],
+    "discoveredAt": "2026-09-10T07:14:40.075Z"
+  },
+  {
+    "id": "pll-harvard-edu",
+    "name": "Free Courses | Harvard University",
+    "domain": "pll.harvard.edu",
+    "url": "https://pll.harvard.edu",
+    "catalogUrl": "https://pll.harvard.edu/catalog/FRee",
+    "vendor": "PLL",
+    "description": "Explore professional and lifelong learning courses from Harvard University. From free online literature classes to in-person business courses for executives, there’s something for everyone. Earn certificates for professional development, receive college degree credit, or take a class just for fun! Advance your career. Pursue your passion. Keep learning.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, catalog",
+      "Dấu hiệu miễn phí: free, free courses"
+    ],
+    "discoveredAt": "2026-09-10T07:14:40.561Z"
+  },
+  {
+    "id": "ocw-mit-edu",
+    "name": "MIT OpenCourseWare | Free Online Course Materials",
+    "domain": "ocw.mit.edu",
+    "url": "https://ocw.mit.edu",
+    "catalogUrl": "https://ocw.mit.edu",
+    "vendor": "OCW",
+    "description": "MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, academy",
+      "Dấu hiệu miễn phí: free, free courses, free online"
+    ],
+    "discoveredAt": "2026-09-10T07:14:41.911Z"
+  },
+  {
+    "id": "skillsbuild-org",
+    "name": "IBM SkillsBuild Learning Catalog | Free AI, Cybersecurity, Data ...",
+    "domain": "skillsbuild.org",
+    "url": "https://skillsbuild.org",
+    "catalogUrl": "https://skillsbuild.org/learning-catalog",
+    "vendor": "SKILLSBUILD",
+    "description": "Build in-demand skills in AI, cybersecurity, data, and more. Whether you’re starting your career or pivoting to something new, IBM SkillsBuild offers 100% free learning from a global leader in technology and innovation.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, skills, catalog",
+      "Dấu hiệu miễn phí: free"
+    ],
+    "discoveredAt": "2026-09-10T07:14:43.172Z"
+  },
+  {
+    "id": "digitaldefynd-com",
+    "name": "1200+ Free Certificate Courses [2026 September] [UPDATED]",
+    "domain": "digitaldefynd.com",
+    "url": "https://digitaldefynd.com",
+    "catalogUrl": "https://digitaldefynd.com/best-free-certification-course-training-online/",
+    "vendor": "DIGITALDEFYND",
+    "description": "4 Million+ Learners | 96,000+ Programs | 120+ Top University Partners",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, certification, certifications",
+      "Dấu hiệu miễn phí: free, free courses, free online"
+    ],
+    "discoveredAt": "2026-09-10T07:14:44.426Z"
+  }
+]
