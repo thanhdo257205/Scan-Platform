@@ -156,5 +156,154 @@
       "Dấu hiệu miễn phí: free, free courses, free online"
     ],
     "discoveredAt": "2026-09-10T07:14:44.426Z"
+  },
+  {
+    "id": "alison-com",
+    "name": "Free Online Courses & Online Learning | Alison",
+    "domain": "alison.com",
+    "url": "https://alison.com",
+    "catalogUrl": "https://alison.com",
+    "vendor": "ALISON",
+    "description": "Free online courses with certificates. Join 15 million graduates and empower your career. Study, learn, certify, upskill with free online learning and training",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, skills",
+      "Dấu hiệu miễn phí: free, free courses, free online, start for free"
+    ],
+    "discoveredAt": "2026-09-10T09:21:38.506Z"
+  },
+  {
+    "id": "www-open-edu",
+    "name": "Free short courses from the Open University - OpenLearn",
+    "domain": "www.open.edu",
+    "url": "https://www.open.edu",
+    "catalogUrl": "https://www.open.edu/openlearn/free-courses",
+    "vendor": "WWW",
+    "description": "Nền tảng đào tạo công nghệ của WWW",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Xác thực qua danh bạ Enterprise Academy (trang đích bật bot protection)"
+    ],
+    "discoveredAt": "2026-09-10T09:21:39.247Z"
+  },
+  {
+    "id": "www-classcentral-com",
+    "name": "[2026] 10,000+ Free Tech Courses & Certificates from Google, Microsoft ...",
+    "domain": "www.classcentral.com",
+    "url": "https://www.classcentral.com",
+    "catalogUrl": "https://www.classcentral.com/report/big-tech-free-courses/",
+    "vendor": "WWW",
+    "description": "Nền tảng đào tạo công nghệ của WWW",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Xác thực qua danh bạ Enterprise Academy (trang đích bật bot protection)"
+    ],
+    "discoveredAt": "2026-09-10T09:21:39.710Z"
+  },
+  {
+    "id": "www-elevify-com",
+    "name": "Free Online Courses — Certificate & Lifetime Access | Elevify",
+    "domain": "www.elevify.com",
+    "url": "https://www.elevify.com",
+    "catalogUrl": "https://www.elevify.com/en",
+    "vendor": "WWW",
+    "description": "Nền tảng đào tạo công nghệ của WWW",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [],
+    "discoveredAt": "2026-09-10T09:21:39.910Z"
+  },
+  {
+    "id": "www-simplilearn-com",
+    "name": "Free Online Courses with Certificates [2026]- 600+ Courses",
+    "domain": "www.simplilearn.com",
+    "url": "https://www.simplilearn.com",
+    "catalogUrl": "https://www.simplilearn.com/skillup-free-online-courses",
+    "vendor": "WWW",
+    "description": "Explore 1000+ online courses in AI, data science, cloud, and business - with certifications backed by Microsoft, AWS & more. Learn live with industry experts.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, academy",
+      "Dấu hiệu miễn phí: free, free courses"
+    ],
+    "discoveredAt": "2026-09-10T09:21:41.103Z"
+  },
+  {
+    "id": "explore-skillbuilder-aws",
+    "name": "AWS Skill Builder",
+    "domain": "explore.skillbuilder.aws",
+    "url": "https://explore.skillbuilder.aws",
+    "catalogUrl": "https://explore.skillbuilder.aws/learn/catalog",
+    "vendor": "Amazon Web Services",
+    "description": "Nền tảng đào tạo công nghệ của Amazon Web Services",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [],
+    "discoveredAt": "2026-09-10T09:46:44.475Z"
+  },
+  {
+    "id": "nowlearning-servicenow-com",
+    "name": "ServiceNow Now Learning",
+    "domain": "nowlearning.servicenow.com",
+    "url": "https://nowlearning.servicenow.com",
+    "catalogUrl": "https://nowlearning.servicenow.com/lxp",
+    "vendor": "ServiceNow",
+    "description": "Nền tảng đào tạo công nghệ của ServiceNow",
+    "hasFreeOfferings": true,
+    "lmsEngine": "ServiceNow LXP",
+    "evidence": [
+      "Từ khóa học tập: course, learning, training",
+      "LMS Engine: ServiceNow Portal"
+    ],
+    "discoveredAt": "2026-09-10T09:46:46.373Z"
+  },
+  {
+    "id": "learn-microsoft-com",
+    "name": "Microsoft Learn",
+    "domain": "learn.microsoft.com",
+    "url": "https://learn.microsoft.com",
+    "catalogUrl": "https://learn.microsoft.com/en-us/training/browse/",
+    "vendor": "Microsoft",
+    "description": "Find official documentation, practical know-how, and expert guidance for builders working and troubleshooting in Microsoft products.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [
+      "Từ khóa học tập: training, skills, certification, certifications"
+    ],
+    "discoveredAt": "2026-09-10T09:46:47.329Z"
+  },
+  {
+    "id": "cloudskillsboost-google",
+    "name": "Google Cloud Skills Boost",
+    "domain": "cloudskillsboost.google",
+    "url": "https://www.cloudskillsboost.google",
+    "catalogUrl": "https://www.cloudskillsboost.google/catalog",
+    "vendor": "Google Cloud",
+    "description": "Learn and earn with Google Skills, a platform that provides  free training and certifications for Google Cloud partners and beginners. Explore now.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Docebo",
+    "evidence": [
+      "Từ khóa học tập: course, courses, learning, training, skills",
+      "Dấu hiệu miễn phí: no cost",
+      "LMS Engine: Docebo"
+    ],
+    "discoveredAt": "2026-09-10T09:46:51.240Z"
+  },
+  {
+    "id": "mylearn-oracle-com",
+    "name": "Oracle MyLearn",
+    "domain": "mylearn.oracle.com",
+    "url": "https://mylearn.oracle.com",
+    "catalogUrl": "https://mylearn.oracle.com/ou/home",
+    "vendor": "Oracle",
+    "description": "Oracle MyLearn — your personalized learning experience. Build new skills with Oracle Cloud training courses and advance your career with an Oracle Certification.",
+    "hasFreeOfferings": true,
+    "lmsEngine": "Custom Portal",
+    "evidence": [],
+    "discoveredAt": "2026-09-10T09:46:52.210Z"
   }
 ]
